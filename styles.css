@@ -38,6 +38,18 @@ nav ul li a:hover {
 }
 
 /* Home Page */
+.cover-image {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.cover-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .home-container {
     display: flex;
     justify-content: space-around;
